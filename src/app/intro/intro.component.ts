@@ -7,7 +7,7 @@ import { bounce, pulse, bounceIn, flipInX } from 'ng-animate';
   templateUrl: './intro.component.html',
   styleUrls: ['./intro.component.css'],
   animations: [
-    trigger('bounce', [transition('* => *', useAnimation(pulse, {
+    trigger('bounce', [transition('* => *', useAnimation(bounce, {
       // Set the duration to 1seconds and delay to 1seconds
       params: { timing: 1, delay: 1 }
     }))])
@@ -19,5 +19,18 @@ export class IntroComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  onScrollEvent(){
+    console.log('test');
+  }
+
+
+
+
+
+
+
+
+
+
 
 }
