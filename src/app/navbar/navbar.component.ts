@@ -4,11 +4,10 @@ import { NgLocaleLocalization } from '@angular/common';
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
-  
+  styleUrls: [ './navbar.component.css' ]  
 })
 export class NavbarComponent implements OnInit {
-  navbarOpen: boolean = false;
+  navbarOpen = false;
   // private hamburger = document.querySelector('.hamburger');
   private nl = document.getElementsByClassName('n-l');
   // private links =document.querySelector('.n-l li');
@@ -31,5 +30,4 @@ export class NavbarComponent implements OnInit {
   toggleNavbar(){
     this.navbarOpen = !this.navbarOpen;
   }
-  
 }

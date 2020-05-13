@@ -7,7 +7,7 @@ import { bounce, pulse, bounceIn, flipInX } from 'ng-animate';
   templateUrl: './welcome.component.html',
   styleUrls: ['./welcome.component.css'],
   animations: [
-    trigger('bounce', [transition('* => *', useAnimation(pulse,{
+    trigger('bounce', [transition('* => *', useAnimation(pulse, {
       // Set the duration to 1seconds and delay to 1seconds
       params: { timing: 1, delay: 1 }
     }))])

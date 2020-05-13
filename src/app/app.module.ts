@@ -21,8 +21,7 @@ import { AnimateOnScrollModule} from 'ng2-animate-on-scroll';
     MainComponent,
     SlidingPictureComponent,
     WelcomeComponent,
-    IntroComponent,
-  
+    IntroComponent   
   ],
   imports: [
     BrowserModule,
@@ -30,8 +29,8 @@ import { AnimateOnScrollModule} from 'ng2-animate-on-scroll';
     BrowserAnimationsModule,
     AnimateOnScrollModule.forRoot()
   ],
-  schemas: [ CUSTOM_ELEMENTS_SCHEMA ,NO_ERRORS_SCHEMA],
-  providers: [],
-  bootstrap: [AppComponent]
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA , NO_ERRORS_SCHEMA],
+  providers: [], 
+  bootstrap: [ AppComponent ]
 })
 export class AppModule { }
