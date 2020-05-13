@@ -1,23 +1,50 @@
 .n {
     height: 6vh;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     /* background-color: #ffc155; */
 }
-.n-l{
+.n-l {
     display: flex;
     list-style: none;
-    width: 30%; 
+    width: 30%;
     height: 100%;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
     align-items: center;
     margin-left: auto;
 
 }
-.n-l li a {
-    color: cornsilk;
-    text-decoration: none;
+
+.n-l li {
+    /* color: cornsilk; */
+    font-size: 16px;
+    /* text-decoration: none; */
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(1);
+    /* text-orientation: initial;  */
+}
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
 }
 
+a:hover {
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
 @media screen and (max-width: 768px)
 {
     .line {
@@ -37,24 +64,25 @@
         transform: translate(-5%, -50% );
         z-index: 4;
     }
+    
   .n-l {
       position: fixed;
-      background-color: cadetblue;  
+      background-color: black;
       /* background-color: #ffc155; */
       height: 30vh;
       width: 100%;
       flex-direction: column;
-        clip-path: circle(0px at 54% -10%);    
+        clip-path: circle(0px at 54% -10%);
         -webkit-clip-path: circle(0px at 54% -10%);
         transition: all 1s ease-out;
         z-index: 2;
         pointer-events: none;
   }
   .n-l.open {
-    clip-path: circle(200px at 54% -10%);    
+    clip-path: circle(200px at 54% -10%);
     -webkit-clip-path: circle(200px at 54% -10%);
     pointer-events: all;
   }
- 
+
 
 }

@@ -7,7 +7,6 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          
         }
       },
       "root": "",
@@ -29,8 +28,8 @@
             ],
             "styles": [
               "src/styles.scss",
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "./node_modules/animate.css/docs/animate.min.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/animate.css/animate.min.css"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",

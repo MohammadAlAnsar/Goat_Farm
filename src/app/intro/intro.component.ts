@@ -3,9 +3,9 @@ import { trigger, transition, useAnimation} from '@angular/animations';
 import { bounce, pulse, bounceIn, flipInX } from 'ng-animate';
 
 @Component({
-  selector: 'app-welcome',
-  templateUrl: './welcome.component.html',
-  styleUrls: ['./welcome.component.css'],
+  selector: 'app-intro',
+  templateUrl: './intro.component.html',
+  styleUrls: ['./intro.component.css'],
   animations: [
     trigger('bounce', [transition('* => *', useAnimation(pulse,{
       // Set the duration to 1seconds and delay to 1seconds
@@ -13,7 +13,7 @@ import { bounce, pulse, bounceIn, flipInX } from 'ng-animate';
     }))])
   ],
 })
-export class WelcomeComponent implements OnInit {
+export class IntroComponent implements OnInit {
   bounce = true;
   constructor() { }
 
