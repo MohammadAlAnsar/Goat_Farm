@@ -1,4 +1,5 @@
 .n {
+    /* position: fixed; */
     height: 6vh;
       background-color: black;  
       transform: scale(1); 
@@ -6,7 +7,7 @@
     /* background-color: #ffc155; */
 }
 .n:hover {
-    background-color: cadetblue;
+    background-color: goldenrod;
     opacity: 0.6;
 }
 .n-l {
@@ -73,7 +74,7 @@ a:hover {
     
   .n-l {
       position: fixed;
-      background-color: cadetblue;
+      background-color: goldenrod;
       /* background-color: #ffc155; */
       height: 30vh;
       width: 100%;

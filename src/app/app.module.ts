@@ -13,6 +13,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { IntroComponent } from './intro/intro.component';
 import { AnimateOnScrollModule} from 'ng2-animate-on-scroll';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +28,8 @@ import { AnimateOnScrollModule} from 'ng2-animate-on-scroll';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    AnimateOnScrollModule.forRoot()
+    AnimateOnScrollModule.forRoot(),
+    NgbModule
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA , NO_ERRORS_SCHEMA],
   providers: [], 

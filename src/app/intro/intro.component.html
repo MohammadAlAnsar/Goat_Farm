@@ -1,39 +1,36 @@
- <div class="container">
-    <div [@foobar]="state">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 ">
-      <img src="assets/img/goat_and_glasses.jpg"> 
-    <!-- <p style="width: 100%; height: 250px; border: 1px solid black; padding: 15px; background: #2a98ef">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, reprehenderit?</p>   -->
-    <!--<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 ">
-    <div class="wrapper">
-      <div class="box-area">
-        <div class="box1">
-          <img src="assets/img/logo.jpg">
+ 
+ <div class="container-fluid padding">
+  <div style="background-color:goldenrod;">
+    <div class="row padding">
+      <div class="col-lg-6">
+      <div [@foobar]="state">    
+          <img src="assets/img/sheep.jpg" class="img-fluid"> 
+         </div> 
+      </div> 
+       <div class="col-lg-6"> 
+       <div class="box"[@text]="value">  
+          <div style= "display: block;background-color: goldenrod;opacity: 1;">
+              <!-- <div [@text]="value">   -->
+                <h1 style="text-align: center;color: white;font-family: sans-serif;">Ansari</h1>
+                <p style="font-family: sans-serif;color: whitesmoke; font-size: 16px;padding-left: 5px;padding-right: 5px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas natus ipsa voluptate? Non labffuygugufytf gguygihgigh guguyhgugfydtrdorum magni quaerat nam perspiciatis recusandae numquam obcaecati voluptas, sapiente quasi dolor at officia quae fugit necessitatibus!</p>
+                <button type="button" class="btn btn-lg" style="margin-left: 10px;background-color: transparent; border: 1px solid black;" (click)="open(mymodal)">Read More</button>
+                <ng-template #mymodal let-modal>
+                  <div class="modal-header">
+                    <h4 class="modal-title" id="modal-basic-title">Bootstrap Modal</h4>
+                    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                      <span aria-hidden="true">×</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Ansari
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Ok</button>
+                  </div>
+                </ng-template>
+              </div>
         </div>
-        <div class="box2">
-          <img src="assets/img/b_w_goat.jpg">
-        </div>
-        <div class="box3">
-          <img src="assets/img/goat_lake.jpg">
-        </div>
-        <div class="box4">
-          <img src="assets/img/hair_goat.jpg">
-        </div>
-        <div class="box5">
-          <img src="assets/img/goat_kid.jpg">
-        </div>
-        <div class="box6">
-          <img src="assets/img/sheep_family.jpg">
-        </div>
-      </div>
-      </div>
-    </div>-->
-   </div>
-    </div> 
-    <!--<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 ">
-   <div style="width: 50%; height: 400px; background-color: cadetblue;">
-  <div [@bloodbar]="value">
-    <h1>Ansari</h1>
-  </div>
-  </div>
-  </div>-->
- </div> 
+        </div> 
+    </div>
+  </div> 
+</div>
