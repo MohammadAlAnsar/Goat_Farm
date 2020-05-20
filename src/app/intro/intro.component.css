@@ -1,177 +1,112 @@
  .container-fluid {
     position: absolute;
-    top: 45em;
+     top: 45em; 
+    background-color: goldenrod;
 }
-.container-fluid img {
-     /* width: 640px; */
 
-     /*height: 430px; */
-    /* border-image-outset: 10px; */
-}
-/*@keyframes op
-{
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-.fadein {
-    animation-name: op;
-    animation-duration: 6s;
 
-}*/
-
-/*.wrapper {
-    width: 400px;
-    height: 400px;
-    margin: 15% auto;
-}
-.box-area div {
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    line-height: 200px;
-}
-.box-area img {
-    width: 400px;
-    height: 400px;
-}
-.box-area {
-    animation: animate 40s ease-in-out infinite;
-    animation-delay: 5s;
-    transform-style: preserve-3d;
-    transform-origin: 200px 200px 0;
-}
-.box-area .box1 {
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    transform: translateZ(200px);
-}
-.box-area .box2 {
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    transform: rotateY(90deg) translateZ(200px);
-}
-.box-area .box3 {
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    transform: rotateY(90deg) rotateX(90deg) translateZ(200px);
-}
-.box-area .box4 {
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    transform:rotateY(180deg) rotateZ(90deg) translateZ(200px);
-}
-.box-area .box5 {
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    transform:rotateY(-90deg) rotateZ(90deg) translateZ(200px);
-}
-.box-area .box6 {
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    transform:rotateX(-90deg) translateZ(200px);
-}
-@keyframes animate {
-    from,to {
-        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-    }
-    16% {
-        transform: rotateY(-90deg);
-    }
-    33% {
-        transform: rotateY(-90deg) rotateZ(90deg);
-    }
-    50% {
-        transform: rotateY(-180deg) rotateZ(90deg);
-    }
-    66% {
-        transform: rotateY(-270deg) rotateX(90deg);
-    }
-    83% {
-        transform: rotateX(90deg);
-    }
-}*/
-@media screen and (max-width: 768px)
+@media screen and (max-width: 1000px)
 {
     .container-fluid {
         position: absolute;
-        top:26em;
+        top:45em;
+        background-color: goldenrod;
+    }
+    .padding{
+        /* padding-bottom: 1em; */
+
+    }
+    .container-fluid {
+        /* padding-top: 1em; */
+    }
+    .container-fluid img {
+        /* width: 400px; */
+        /* height: 400px; */
+        /* margin-bottom: 1em; */
+    }
+
+}
+@media screen and (max-width: 990px)
+{
+    .container-fluid {
+        position: absolute;
+        top:45em;
+        background-color: white;
     }
     .padding{
         padding-bottom: 1em;
+
+    }
+    .container-fluid {
+        padding-top: 1em;
     }
     .container-fluid img {
         /* width: 400px; */
         /* height: 400px; */
         margin-bottom: 1em;
     }
-   /* .wrapper {
-        width: 200px;
-        height: 200px;
-        margin: 15% auto;
-    }
-    .box-area div {
-        position: absolute;
-        width: 200px;
-        height: 200px;
-        line-height: 200px;
-    }
-    .box-area img {
-        width: 200px;
-        height: 200px;
-    }
-    .box-area {
-        animation: animate 40s ease-in-out infinite;
-        animation-delay: 5s;
-        transform-style: preserve-3d;
-        transform-origin: 100px 100px 0;
-    }
-    .box-area .box1 {
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position: center center;
-        transform: translateZ(100px);
-    }
-    .box-area .box2 {
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position: center center;
-        transform: rotateY(90deg) translateZ(100px);
-    }
-    .box-area .box3 {
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position: center center;
-        transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-    }
-    .box-area .box4 {
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position: center center;
-        transform:rotateY(180deg) rotateZ(90deg) translateZ(100px);
-    }
-    .box-area .box5 {
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position: center center;
-        transform:rotateY(-90deg) rotateZ(90deg) translateZ(100px);
-    }
-    .box-area .box6 {
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position: center center;
-        transform:rotateX(-90deg) translateZ(100px);
-    }*/
 
 }
-@media screen and (max-width: 992px)
+@media screen and (max-width: 800px)
 {
-    .container-fluid img {
+    .container-fluid {
+        position: absolute;
+        top:40em;
+        background-color: white;
+    }
+    .padding{
+        padding-bottom: 1em;
 
     }
+    .container-fluid {
+        padding-top: 1em;
+    }
+    .container-fluid img {
+        /* width: 400px; */
+        /* height: 400px; */
+        margin-bottom: 1em;
+    }
+
+}
+@media screen and (max-width: 765px)
+{
+    .container-fluid {
+        position: absolute;
+        top:26em;
+        background-color: white;
+    }
+    .padding{
+        padding-bottom: 1em;
+
+    }
+    .container-fluid {
+        padding-top: 1em;
+    }
+    .container-fluid img {
+        /* width: 400px; */
+        /* height: 400px; */
+        margin-bottom: 1em;
+    }
+
+}
+@media screen and (max-width: 600px)
+{
+    .container-fluid {
+        position: absolute;
+        top:26em;
+        background-color: white;
+    }
+    .padding{
+        padding-bottom: 1em;
+
+    }
+    .container-fluid {
+        padding-top: 1em;
+    }
+    .container-fluid img {
+        /* width: 400px; */
+        /* height: 400px; */
+        margin-bottom: 1em;
+    }
+
 }

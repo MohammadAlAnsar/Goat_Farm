@@ -1,0 +1,132 @@
+.container-fluid {
+    position: absolute;
+    top: 68em; 
+}
+.padding img {
+   height: 100px;
+   width: 100px;
+    
+}
+.margin {
+    margin-bottom: 2em;
+}
+@media screen and (max-width: 1300px)
+{
+    .container-fluid {
+        position: absolute;
+        top: 66em;
+    }
+}
+@media screen and (max-width: 1250px)
+{
+    .container-fluid {
+        position: absolute;
+        top: 65em;
+    }
+}
+
+@media screen and (max-width: 1200px)
+{
+    .container-fluid {
+        position: absolute;
+        top: 64em;
+    }
+}
+@media screen and (max-width: 1175px)
+{
+    .container-fluid {
+        position: absolute;
+        top: 63em;
+    }
+}
+@media screen and (max-width: 1150px)
+{
+    .container-fluid {
+        position: absolute;
+        top: 62em;
+    }
+}
+@media screen and (max-width: 1000px)
+{
+    .container-fluid {
+        position: absolute;
+        top: 61em;
+    }
+}
+@media screen and (max-width: 991px)
+{
+    .container-fluid {
+        position: absolute;
+        top: 94em;
+    }
+}
+@media screen and (max-width: 950px)
+{
+    .container-fluid {
+        position: absolute;
+        top: 92em;
+    }
+}
+@media screen and (max-width: 900px)
+{
+    .container-fluid {
+        position: absolute;
+        top: 90em;
+    }
+}
+@media screen and (max-width: 850px)
+{
+    .container-fluid {
+        position: absolute;
+        top: 88em;
+    }
+}
+@media screen and (max-width: 825px)
+{
+    .container-fluid {
+        position: absolute;
+        top: 86em;
+    }
+}
+@media screen and (max-width: 800px)
+{
+    .container-fluid {
+        position: absolute;
+        top: 82em;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    .container-fluid {
+        position: absolute;
+        top: 80em;
+    }
+}
+@media screen and (max-width: 760px)
+{
+    .container-fluid {
+        position: absolute;
+        top: 67em;
+    }
+}
+@media screen and (max-width: 700px)
+{
+    .container-fluid {
+        position: absolute;
+        top: 65em;
+    }
+}
+@media screen and (max-width: 650px)
+{
+    .container-fluid {
+        position: absolute;
+        top: 63em;
+    }
+}
+@media screen and (max-width: 600px)
+{
+    .container-fluid {
+        position: absolute;
+        top: 61em;
+    }
+}

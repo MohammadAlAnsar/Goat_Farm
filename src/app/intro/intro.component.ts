@@ -6,7 +6,7 @@ import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 
 const style1 = style({
   opacity: 1,
-  transform: "translateX(0)"
+  transform: "translateX(0%)"
 })
 
 const style2 = style({
@@ -15,7 +15,7 @@ const style2 = style({
 })
 const style3 = style({
   opacity: 1,
-  transform: "translateX(0)"
+  transform: "translateX(-0%)"
 })
 const style4 = style({
   opacity:0,
