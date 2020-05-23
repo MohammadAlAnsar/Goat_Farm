@@ -1,0 +1,59 @@
+
+<div class="margin">
+ <h1 style="text-align: center;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;background-color: goldenrod;padding: 5px; color: white;">Gallery</h1>
+    <div class="padding">
+        <ul>
+            <li>All</li>
+            <li>Goat</li>
+            <li>Sheep</li>
+            <li>Vector</li>
+        </ul>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <img src="assets/img/wool_resize.jpg" (click)="open(mymodal)" width="300" height="200">
+        </div>
+    </div> 
+    <div class="responsive">
+        <div class="gallery">
+            <img src="assets/img/sheep_family_resize.jpg" (click)="open(mymodal)" width="300" height="200">
+        </div>
+    </div> 
+    <div class="responsive">
+        <div class="gallery">
+            <img src="assets/img/knife_resize.png" (click)="open(mymodal)" width="300" height="200">
+        </div>
+    </div> 
+    <div class="responsive">
+        <div class="gallery">
+            <img src="assets/img/goat_and_glasses_resize.jpg" (click)="open(mymodal)" width="300" height="200">
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <img src="assets/img/transparent_resize.jpg" (click)="open(mymodal)" width="300" height="200">
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <img src="assets/img/goat_kid_resize.jpg" (click)="open(mymodal)" width="300" height="200">
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <img src="assets/img/cute_goat_resize.jpg" (click)="open(mymodal)" width="300" height="200">
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <img src="assets/img/b_w_goat_resize.jpg" (click)="open(mymodal)" width="300" height="200">
+        </div>
+    </div> 
+     
+     <ng-template #mymodal let-modal>
+        <ng-image-slider [images]="imageObject" #nav> 
+        </ng-image-slider>     
+      </ng-template>
+    
+</div>
+

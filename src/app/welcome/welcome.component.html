@@ -1,8 +1,8 @@
 <div class="container-fluid">
-        <h1 class="display-1" style="text-align: center;">Service</h1>
+        <h1 class="display-4" style="text-align: center;font-weight: bold;font-family: sans-serif;">Services</h1>
   <div class="row text-center padding">
     <!--First Image-->
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 margin">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 margin">
         <!-- <button type="button" (click)="open(mymodal)" class="btn-outline-light"> -->
             <img (click)="open(mymodal)" src="assets/img/curing_vector.png" >
         <!-- </button> -->
@@ -22,12 +22,12 @@
                             <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Ok</button>
                             </div>
                     </ng-template>
-    </div>
+        </div>
     <!--Second Image-->
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 margin">
-        <button type="button" (click)="open(mymodel)" class="btn-outline-light">
-            <img src="assets/img/transparent.jpg">
-        </button>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 margin">
+       <!-- <button type="button" (click)="open(mymodel)" class="btn-outline-light"> -->
+            <img src="assets/img/transparent.jpg" (click)="open(mymodel)">
+        <!-- </button> -->
         <h4>Logo</h4>
         <ng-template #mymodel let-modal>
             <div class="modal-header">
@@ -46,7 +46,7 @@
           </ng-template>
     </div>
     <!--Third Image-->
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 margin">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 margin">
         <!-- <button type="button" (click)="open(mymodl)"> -->
             <img src="assets/img/mop_bucket.png" (click)="open(mymodl)">
         <!-- </button> -->
@@ -68,7 +68,7 @@
           </ng-template>
     </div>
     <!--Fourth Image-->
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 margin">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 margin">
         <!-- <button type="button" (click)="open(mymodle)"> -->
             <img src="assets/img/shower.jpg" (click)="open(mymodle)">
         <!-- </button> -->
@@ -90,7 +90,7 @@
           </ng-template>
     </div>
     <!--Fifth Image-->
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 margin">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 margin">
         <!-- <button type="button" (click)="open(mymodul)"> -->
             <img src="assets/img/breeding.jpg" (click)="open(mymodul)">
         <!-- </button> -->
@@ -112,7 +112,7 @@
           </ng-template>
     </div>
     <!--Sixth Image-->
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 margin">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4 margin">
         <!-- <button type="button" (click)="open(my_modal)"> -->
             <img src="assets/img/vector_feeding.jpg" (click)="open(my_modal)">
         <!-- </button> -->

@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +13,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { IntroComponent } from './intro/intro.component';
 import { AnimateOnScrollModule} from 'ng2-animate-on-scroll';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { GalleryComponent } from './gallery/gallery.component';
+import { NgImageSliderModule } from 'ng-image-slider';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,14 +23,16 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     MainComponent,
     SlidingPictureComponent,
     WelcomeComponent,
-    IntroComponent   
+    IntroComponent,
+    GalleryComponent   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     AnimateOnScrollModule.forRoot(),
-    NgbModule
+    NgbModule,
+    NgImageSliderModule
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA , NO_ERRORS_SCHEMA],
   providers: [], 

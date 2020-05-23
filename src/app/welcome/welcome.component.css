@@ -5,10 +5,15 @@
 .padding img {
    height: 100px;
    width: 100px;
+   cursor: pointer;
     
 }
 .margin {
     margin-bottom: 2em;
+}
+.margin img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
 }
 @media screen and (max-width: 1300px)
 {
@@ -36,14 +41,21 @@
 {
     .container-fluid {
         position: absolute;
-        top: 63em;
+        top: 64em;
     }
 }
 @media screen and (max-width: 1150px)
 {
     .container-fluid {
         position: absolute;
-        top: 62em;
+        top: 65em;
+    }
+}
+@media screen and (max-width: 1125px)
+{
+    .container-fluid {
+        position: absolute;
+        top: 63em;
     }
 }
 @media screen and (max-width: 1000px)
@@ -85,14 +97,14 @@
 {
     .container-fluid {
         position: absolute;
-        top: 86em;
+        top: 88em;
     }
 }
 @media screen and (max-width: 800px)
 {
     .container-fluid {
         position: absolute;
-        top: 82em;
+        top: 83em;
     }
 }
 @media screen and (max-width: 768px)
@@ -123,10 +135,24 @@
         top: 63em;
     }
 }
+
 @media screen and (max-width: 600px)
 {
     .container-fluid {
         position: absolute;
-        top: 61em;
+        top: 63em;
     }
 }
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
